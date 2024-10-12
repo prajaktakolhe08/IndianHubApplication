@@ -4,6 +4,11 @@ Indian Hub is an innovative Android application designed to be your ultimate gui
 
 ### Screenshots
 <img src="https://github.com/prajaktakolhe08/IndianHubApplication/blob/main/1.jpg?raw=true" alt="Home Screen" width="300">
+<img src="https://github.com/prajaktakolhe08/IndianHubApplication/blob/main/2.jpg?raw=true" alt="Overview" width="300">
+<img src="https://github.com/prajaktakolhe08/IndianHubApplication/blob/main/3.jpg?raw=true" alt="Places to visit" width="300">
+<img src="https://github.com/prajaktakolhe08/IndianHubApplication/blob/main/5.jpg?raw=true" alt="Cuisine Section" width="300">
+<img src="https://github.com/prajaktakolhe08/IndianHubApplication/blob/main/4.jpg?raw=true" alt="Traditional Wear" width="300">
+
 
 ### Key Features:
 Cultural Insights: Dive into the diverse traditions and festivals that define the Indian ethos.
