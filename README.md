@@ -11,10 +11,10 @@ Indian Hub is an innovative Android application designed to be your ultimate gui
 <img src="https://raw.githubusercontent.com/prajaktakolhe08/IndianHubApplication/2fe4e6b7f762aa0e59cfca38349aad9b55e6a157/6.jpg" alt="Festival Details" width="300">
 
 ### Key Features:
-Cultural Insights: Dive into the diverse traditions and festivals that define the Indian ethos.
-Culinary Journey: Discover regional delicacies, recipes, and famous dishes, making it easy to explore India’s gastronomic diversity.
-Fashion Showcase: Learn about traditional outfits and modern fashion trends from different states.
-Tourist Guide: Explore popular destinations, historical sites, and natural wonders, complete with descriptions and travel tips.
+#Cultural Insights: Dive into the diverse traditions and festivals that define the Indian ethos.
+#Culinary Journey: Discover regional delicacies, recipes, and famous dishes, making it easy to explore India’s gastronomic diversity.
+#Fashion Showcase: Learn about traditional outfits and modern fashion trends from different states.
+#Tourist Guide: Explore popular destinations, historical sites, and natural wonders, complete with descriptions and travel tips.
 
 ### Technology Stack:
 The Indian Hub application is developed using Kotlin for robust functionality and XML for intuitive user interface design, ensuring a seamless and engaging user experience.
