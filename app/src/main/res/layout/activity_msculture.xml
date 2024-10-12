@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MsCulture">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="311dp"
+        android:layout_height="189dp"
+        android:layout_marginStart="30dp"
+        android:adjustViewBounds="true"
+        android:scaleX="1.5"
+        android:scaleY="1"
+        app:srcCompat="@drawable/img_40"
+        tools:ignore="ExtraText" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="-50dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="545dp"
+            android:layout_marginTop="50dp"
+            android:orientation="vertical">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:padding="14dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:letterSpacing="0.1"
+                        android:text="Top POPULAR FESTIVALS CELEBRATE IN MAHARASHTRA"
+                        android:textAllCaps="true"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                    <View
+                        android:layout_width="30dp"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="5dp"
+                        android:background="#03A9F4"
+                        android:orientation="vertical" />
+
+                    <TextView
+                        android:id="@+id/overview_info"
+                        android:layout_width="165dp"
+                        android:layout_height="29dp"
+                        android:layout_marginTop="10dp"
+                        android:letterSpacing="0.1"
+                        android:lineSpacingExtra="1dp"
+                        android:text="1. Ganesh Chaturthi"
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/imageView7"
+                        android:layout_width="match_parent"
+                        android:layout_height="194dp"
+                        android:scaleX="1"
+                        app:srcCompat="@drawable/img_36" />
+
+
+                    <me.biubiubiu.justifytext.library.JustifyTextView
+                        android:id="@+id/textView8"
+                        android:layout_width="match_parent"
+                        android:layout_height="162dp"
+                        android:layout_marginTop="2dp"
+                        android:text=" Ganesh Chaturthi is one of the most popular Hindu festival celebrating the birth of lord Ganesha in Maharashtra. It is a 10-day festival usually celebrated in August that is dedicated to Lord Ganesha, the god of wisdom, prosperity, and good fortune. During the festival, elaborate pandals (temporary structures) are erected across the state, and colorful processions are taken out to immerse the idols of Lord Ganesha in the water.">
+
+                    </me.biubiubiu.justifytext.library.JustifyTextView>
+
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="132dp"
+                        android:layout_height="36dp"
+                        android:text="2. Gudi Padwa"
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/imageView"
+                        android:layout_width="351dp"
+                        android:layout_height="200dp"
+                        android:scaleX="2"
+                        app:srcCompat="@drawable/img_37" />
+
+                    <me.biubiubiu.justifytext.library.JustifyTextView
+                        android:id="@+id/textView10"
+                        android:layout_width="match_parent"
+                        android:layout_height="152dp"
+                        android:text="Gudhi Padwa is the Maharashtrian New Year, and it is celebrated on the first day of the Hindu calendar month of Chaitra. It is believed to be the day on which Lord Brahma created the universe. On this day, people hoist a Gudhi (a colorful flag-like cloth) outside their homes and prepare traditional delicacies such as Puran Poli, Batata Bhaji and Shrikhand to mark the occasion." />
+
+                    <TextView
+                        android:id="@+id/textView11"
+                        android:layout_width="match_parent"
+                        android:layout_height="31dp"
+                        android:text="3. Holi"
+                        android:textColor="@color/black"
+                        android:textSize="12dp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="323dp"
+                        android:layout_height="173dp"
+                        android:scaleX="2"
+                        android:scaleY="1"
+                        app:srcCompat="@drawable/img_38" />
+
+                    <me.biubiubiu.justifytext.library.JustifyTextView
+                        android:id="@+id/textView12"
+                        android:layout_width="match_parent"
+                        android:layout_height="111dp"
+                        android:text="Holi is a festival of colors or the festival of love that is celebrated with great enthusiasm in Maharashtra. It marks the arrival of spring and celebrate the victory of good over evil. People smear each other with colors, dance to traditional folk songs, and relish traditional delicacies." />
+
+
+                    <TextView
+                        android:id="@+id/textV11"
+                        android:layout_width="match_parent"
+                        android:layout_height="31dp"
+                        android:text="4. Diwali"
+                        android:textColor="@color/black"
+                        android:textSize="12dp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/image3"
+                        android:layout_width="323dp"
+                        android:layout_height="161dp"
+                        android:scaleX="1.2"
+                        app:srcCompat="@drawable/img_39" />
+
+                    <me.biubiubiu.justifytext.library.JustifyTextView
+                        android:id="@+id/text12"
+                        android:layout_width="match_parent"
+                        android:layout_height="138dp"
+                        android:text="Diwali, also known as the festival of lights, is another important festival in Maharashtra. It is a 5-day festival that marks the victory of good over evil. People decorate their homes with lights and rangolis, exchange sweets and gifts, and light firecrackers and candle to celebrate the occasion." />
+
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

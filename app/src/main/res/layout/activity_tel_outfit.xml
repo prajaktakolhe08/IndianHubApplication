@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TelOutfit">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="349dp"
+        android:layout_height="189dp"
+        android:layout_marginStart="30dp"
+        android:adjustViewBounds="true"
+        android:scaleX="1.2"
+        android:scaleY="1.2"
+        app:srcCompat="@drawable/img_60"
+        tools:ignore="ExtraText" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="-50dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="545dp"
+            android:layout_marginTop="50dp"
+            android:orientation="vertical">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:padding="14dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="41dp"
+                        android:letterSpacing="0.1"
+                        android:text="Know all about telangana traditional outfits"
+                        android:textAllCaps="true"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                    <View
+                        android:layout_width="30dp"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="5dp"
+                        android:background="#03A9F4"
+                        android:orientation="vertical" />
+
+                    <TextView
+                        android:id="@+id/overview_info"
+                        android:layout_width="96dp"
+                        android:layout_height="29dp"
+                        android:layout_marginTop="10dp"
+                        android:letterSpacing="0.1"
+                        android:lineSpacingExtra="1dp"
+                        android:text="1. Saree"
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/imageView7"
+                        android:layout_width="match_parent"
+                        android:layout_height="133dp"
+                        android:scaleX="1.9"
+                        app:srcCompat="@drawable/img_56" />
+
+
+                    <me.biubiubiu.justifytext.library.JustifyTextView
+                        android:id="@+id/textView8"
+                        android:layout_width="match_parent"
+                        android:layout_height="125dp"
+                        android:layout_marginTop="16dp"
+                        android:text="The saree is the most popular and widely worn traditional attire of Telangana. The sarees from Telangana are made of cotton, silk, or a blend of both. The most famous sarees of Telangana are Gadwal, Pochampally, and Narayanpet sarees, which are known for their intricate designs and use of different types of vibrant colors.">
+
+                    </me.biubiubiu.justifytext.library.JustifyTextView>
+
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="132dp"
+                        android:layout_height="35dp"
+                        android:text="2. Lehenga Choli"
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/imageView"
+                        android:layout_width="334dp"
+                        android:layout_height="179dp"
+                        android:scaleX="1.4"
+                        app:srcCompat="@drawable/img_57" />
+
+                    <me.biubiubiu.justifytext.library.JustifyTextView
+                        android:id="@+id/textView10"
+                        android:layout_width="match_parent"
+                        android:layout_height="121dp"
+                        android:layout_marginTop="16dp"
+                        android:text="The Lehenga Choli is a traditional outfit worn by women on special occasions like weddings and festivals. It consists of a long skirt called Lehenga, paired with a short blouse called Choli. The Lehenga is often heavily embellished with embroidery, sequins, and other decorative elements to make it more attractive." />
+
+                    <TextView
+                        android:id="@+id/textView11"
+                        android:layout_width="match_parent"
+                        android:layout_height="34dp"
+                        android:text="3. Pancha dhoti "
+                        android:textColor="@color/black"
+                        android:textSize="12dp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="323dp"
+                        android:layout_height="154dp"
+                        android:scaleX="2.1"
+                        app:srcCompat="@drawable/img_58" />
+
+                    <me.biubiubiu.justifytext.library.JustifyTextView
+                        android:id="@+id/textView12"
+                        android:layout_width="match_parent"
+                        android:layout_height="142dp"
+                        android:layout_marginTop="16dp"
+                        android:text="Pancha dhoti, also known as Veshti or Mundu, is a traditional garment worn by men in the southern states of India, including Telangana. It is a rectangular piece of cloth, usually made of cotton, that is draped around the waist and legs. Pancha dhoti is so named because it is made up of five separate pieces of cloth that are woven together to form a single piece of the garment." />
+                    <TextView
+                        android:id="@+id/textV11"
+                        android:layout_width="match_parent"
+                        android:layout_height="24dp"
+                        android:text="4. Salwar Kameez"
+                        android:textColor="@color/black"
+                        android:textSize="12dp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/image3"
+                        android:layout_width="307dp"
+                        android:layout_height="239dp"
+                        android:scaleX="2"
+                        app:srcCompat="@drawable/img_59" />
+
+                    <me.biubiubiu.justifytext.library.JustifyTextView
+                        android:id="@+id/text12"
+                        android:layout_width="match_parent"
+                        android:layout_height="116dp"
+                        android:layout_marginTop="16dp"
+                        android:text="Salwar Kameez is another popular traditional outfit of Telangana. It consists of a long tunic called Kameez, worn over loose-fitting pants called Salwar. The outfit is often paired with a matching dupatta, a long scarf that is draped over the head or shoulders. and comfertable to wear" />
+
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

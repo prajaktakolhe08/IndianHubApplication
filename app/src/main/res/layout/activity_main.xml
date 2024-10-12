@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="409dp"
+    android:layout_height="729dp"
+    android:fillViewport="true"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="1dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".MainActivity">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="342dp"
+            android:layout_height="307dp"
+            android:layout_marginStart="33dp"
+            android:layout_marginTop="29dp"
+            android:layout_marginEnd="28dp"
+            android:layout_marginBottom="353dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.105"
+            app:srcCompat="@drawable/img" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="93dp"
+            android:layout_height="31dp"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="342dp"
+            android:layout_marginEnd="290dp"
+            android:layout_marginBottom="356dp"
+            android:text="Overview"
+            android:textColor="@color/black"
+            android:textSize="19dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:id="@+id/textView4"
+            android:layout_width="333dp"
+            android:layout_height="204dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="373dp"
+            android:layout_marginEnd="51dp"
+            android:layout_marginBottom="161dp"
+            android:text="India, a diverse country in the South Asia, known for it's rich culture, history, and cuisine. With 28 states, 8 union territories, and over 1,600 languages spoken, India is a land of vibrant traditions, colorful festivals, and ancient landmarks like the Taj Mahal. From curry to classical music and dance, India's diverse heritage and spirituality shine through it's art, cuisine, and celebrations. With challenges like poverty, and pollution, India's democracy and dynamic youth population continue to shape it's democracy and dynamic youth population continue to shape it's growing economy, global presence and importance. ."
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btnm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="597dp"
+            android:layout_marginEnd="232dp"
+            android:layout_marginBottom="84dp"
+            android:text="MAHARASHTRA"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btnr"
+            android:layout_width="146dp"
+            android:layout_height="47dp"
+            android:layout_marginStart="195dp"
+            android:layout_marginTop="653dp"
+            android:layout_marginEnd="68dp"
+            android:layout_marginBottom="29dp"
+            android:text="RAJASTHAN"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.583" />
+
+        <Button
+            android:id="@+id/btnt"
+            android:layout_width="156dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="653dp"
+            android:layout_marginEnd="227dp"
+            android:layout_marginBottom="28dp"
+            android:text="TELANGANA"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btnk"
+            android:layout_width="150dp"
+            android:layout_height="46dp"
+            android:layout_marginStart="194dp"
+            android:layout_marginTop="597dp"
+            android:layout_marginEnd="65dp"
+            android:layout_marginBottom="86dp"
+            android:text="KERALA"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

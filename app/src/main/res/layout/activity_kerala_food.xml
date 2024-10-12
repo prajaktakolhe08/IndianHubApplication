@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".KeralaFood">
+
+    <ImageView
+        android:layout_width="380dp"
+        android:layout_height="189dp"
+        android:layout_marginStart="30dp"
+        android:adjustViewBounds="true"
+        android:scaleX="2.3"
+        android:scaleY="1"
+        app:srcCompat="@drawable/img_25"
+        tools:ignore="ExtraText" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="-50dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="545dp"
+            android:layout_marginTop="50dp"
+            android:orientation="vertical">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:padding="14dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:letterSpacing="0.1"
+                        android:text="TOP FOODS TO TRY IN KERALA"
+                        android:textAllCaps="true"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                    <View
+                        android:layout_width="30dp"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="5dp"
+                        android:background="#03A9F4"
+                        android:orientation="vertical" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="22dp"
+                        android:layout_marginTop="10dp"
+                        android:letterSpacing="0.1"
+                        android:lineSpacingExtra="1dp"
+                        android:text="1. Puttu and Kadala Curry"
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:scaleX="3"
+                        android:layout_height="104dp"
+                        app:srcCompat="@drawable/img_9" />
+
+
+                    <me.biubiubiu.justifytext.library.JustifyTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="131dp"
+                        android:layout_marginTop="16dp"
+                        android:text="This is a breakfast staple eaten all over the state. Puttu is a cylindrical steamed rice cake cooked in a mould with grated coconut. It's usually served with kadala curry, a dish of black chickpeas made with shallots, spices and coconut milk, that can also be served with ripe bananas and coconut.">
+                    </me.biubiubiu.justifytext.library.JustifyTextView>
+
+                    <TextView
+                        android:layout_width="132dp"
+                        android:layout_height="23dp"
+                        android:text="2. Appam with stew"
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="351dp"
+                        android:layout_height="179dp"
+                        android:scaleX="2"
+                        app:srcCompat="@drawable/img_11" />
+
+                    <me.biubiubiu.justifytext.library.JustifyTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="223dp"
+                        android:layout_marginTop="16dp"
+                        android:text="Appam is a Keralan staple made from fermented rice flour and coconut milk. It’s similar to a thin pancake with crispy edges. These crepe-like bowls are made from fermented rice flour, coconut milk, coconut water and a little sugar. Ishtu or stew is a derivative of the European stew and consists of coconut milk, cinnamon, cloves and shallots, eaten with appams. The stew may also feature mango pieces, vegetables, chicken or lamb. The addition of aromatic whole spices, ginger and fresh coconut milk enhance the natural flavor of the vegetables. The crucial ingredient is fresh coconut milk, which lends a sweet flavor." />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="26dp"
+                        android:text="3. Fish Moilee"
+                        android:textColor="@color/black"
+                        android:textSize="12dp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="323dp"
+                        android:layout_height="145dp"
+                        app:srcCompat="@drawable/img_12"
+                        android:scaleX="2"/>
+
+                    <me.biubiubiu.justifytext.library.JustifyTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="182dp"
+                        android:layout_marginTop="16dp"
+                        android:text="A famous Keralan fish stew made with coconut milk, which is a typical Syrian Christian delicacy. The curry is usually prepared in a traditional manchatti (earthen vessel) and stews lightly fried fish in coconut milk, and spices like turmeric, pepper, cinnamon and cloves along with fresh green chillies to give it a tangy taste. The fish (usually kingfish or seer fish) is marinated with oil, turmeric, red chili powder, lemon juice and salt for 30 minutes before being used in the curry." />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="23dp"
+                        android:text="4. Palada Payasam (Dessert)"
+                        android:textColor="@color/black"
+                        android:textSize="12dp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="323dp"
+                        android:layout_height="145dp"
+                        app:srcCompat="@drawable/img_13"
+                        android:scaleX="2"/>
+
+                    <me.biubiubiu.justifytext.library.JustifyTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="158dp"
+                        android:layout_marginTop="16dp"
+                        android:text="A sweet rice kheer prepared with palada is a delicacy made in almost all Kerala households during the festival of Onam and many other special occasions. There are many variations of it, however, the traditional recipe uses only basic ingredients like rice ada, milk, sugar and ghee. Rice ada is easily available grocery stores." />
+
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

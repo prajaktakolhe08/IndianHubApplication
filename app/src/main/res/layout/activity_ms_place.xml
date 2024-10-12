@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MsPlace">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="380dp"
+        android:layout_height="189dp"
+        android:layout_marginStart="30dp"
+        android:adjustViewBounds="true"
+        android:scaleX="1.6"
+        android:scaleY="1"
+        app:srcCompat="@drawable/img_26"
+        tools:ignore="ExtraText" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="-50dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="545dp"
+            android:layout_marginTop="50dp"
+            android:orientation="vertical">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:padding="14dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:letterSpacing="0.1"
+                        android:text="Places to Visit in maharashtra"
+                        android:textAllCaps="true"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                    <View
+                        android:layout_width="30dp"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="5dp"
+                        android:background="#03A9F4"
+                        android:orientation="vertical" />
+
+                    <TextView
+                        android:layout_width="99dp"
+                        android:layout_height="28dp"
+                        android:layout_marginTop="10dp"
+                        android:letterSpacing="0.1"
+                        android:lineSpacingExtra="1dp"
+                        android:text="1. Mumbai"
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="170dp"
+                        android:scaleX="2"
+                        app:srcCompat="@drawable/img_27" />
+
+
+                    <me.biubiubiu.justifytext.library.JustifyTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="122dp"
+                        android:layout_marginTop="16dp"
+                        android:text="Mumbai, the capital city of the Indian state of Maharashtra, is a spectacular paradox of chaos and hope, glamour and squalor, modernity and tradition. Famously known as the City of Dreams, Mumbai – formerly known as Bombay - Mumbai is a beautifully blended melting pot of cultural heritage, traditions, festivals and lifestyles.">
+                    </me.biubiubiu.justifytext.library.JustifyTextView>
+
+                    <TextView
+                        android:layout_width="132dp"
+                        android:layout_height="33dp"
+                        android:text="2. Aurangabad"
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="351dp"
+                        android:layout_height="179dp"
+                        android:scaleX="2"
+                        android:scaleY="1.3"
+                        app:srcCompat="@drawable/img_28" />
+
+                    <me.biubiubiu.justifytext.library.JustifyTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="245dp"
+                        android:layout_marginTop="16dp"
+                        android:text="Aurangabad, which was declared by the Government as the Tourism Capital of Maharashtra back in 2010, is a famous tourist hub which greets its visitors with a richly woven tapestry of sights and sounds. The city got its name for being the erstwhile capital of Mughal Emperor Aurangzeb in the 17th century AD. The town is used as the base to explore the extremely famous caves of Ajanta and Ellora, Daulatabad Fort which is renowned for its strong defence systems, Mausoleums of Aurangzeb and Bibi-Ka-Maqbara famous for its architecture and Grishneshwar Temple, one of the only 12 shiva jyotirlingas present in all over India" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="29dp"
+                        android:text="3. Tadoba National Park"
+                        android:textColor="@color/black"
+                        android:textSize="12dp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="323dp"
+                        android:layout_height="191dp"
+                        android:scaleX="2"
+                        app:srcCompat="@drawable/img_29" />
+
+                    <me.biubiubiu.justifytext.library.JustifyTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="154dp"
+                        android:layout_marginTop="16dp"
+                        android:text="Famous for its natural heritage, Tadoba Andhari Tiger Reserve is definitely one of India's most exciting and best protected Tiger Reserve, with most visible tiger sightings in the state of Maharashtra. Tadoba national park is located in Chandrapur district of Maharashtra. This place is an ideal weekend gateway for wildlife and nature lovers. Spotted in this region are rare species of flora and fauna, soothing your very being." />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="24dp"
+                        android:text="4. Rajmachi Tourism"
+                        android:textColor="@color/black"
+                        android:textSize="12dp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="323dp"
+                        android:layout_height="145dp"
+                        app:srcCompat="@drawable/img_30"
+                        android:scaleX="2"/>
+
+                    <me.biubiubiu.justifytext.library.JustifyTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="164dp"
+                        android:layout_marginTop="16dp"
+                        android:text="Rajmachi is a small village situated in the Sahyadri mountain range of the Konkan region of Maharashtra. Rajmachi is famous for the historical fortress which has two fortified peaks - Shrivardhan and Manaranjan forts, located near two famous hill of Lonavala and hill of Khandala. At the base of the fort is the village Udhewadi which is another name for Rajmachi." />
+
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

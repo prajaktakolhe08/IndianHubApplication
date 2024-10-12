@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".KeralaPlace">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="380dp"
+        android:layout_height="189dp"
+        android:layout_marginStart="30dp"
+        android:adjustViewBounds="true"
+        android:scaleX="1.2"
+        android:scaleY="1.2"
+        app:srcCompat="@drawable/img_4"
+        tools:ignore="ExtraText" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="-50dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="545dp"
+            android:layout_marginTop="50dp"
+            android:orientation="vertical">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:padding="14dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:letterSpacing="0.1"
+                        android:text="Kerala's PlaceS of Interest"
+                        android:textAllCaps="true"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                    <View
+                        android:layout_width="30dp"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="5dp"
+                        android:background="#03A9F4"
+                        android:orientation="vertical" />
+
+                    <TextView
+                        android:id="@+id/overview_info"
+                        android:layout_width="wrap_content"
+                        android:layout_height="23dp"
+                        android:layout_marginTop="10dp"
+                        android:letterSpacing="0.1"
+                        android:lineSpacingExtra="1dp"
+                        android:text="1. Munnar"
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/imageView7"
+                        android:layout_width="match_parent"
+                        android:scaleX="2"
+                        android:layout_height="104dp"
+                        app:srcCompat="@drawable/img_3" />
+
+
+                    <me.biubiubiu.justifytext.library.JustifyTextView
+                        android:id="@+id/textView8"
+                        android:layout_width="match_parent"
+                        android:layout_height="107dp"
+                        android:layout_marginTop="16dp"
+                        android:text="Munnar is a hill station located in the Western Ghats mountain range of the India state of Kerala, known for its lush green tea plantations, scenic landscapes, and pleasant climate. It is a popular tourist destination that offers activities such as trekking, camping, and wildlife safaris.">
+
+                    </me.biubiubiu.justifytext.library.JustifyTextView>
+
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="132dp"
+                        android:layout_height="25dp"
+                        android:text="2. Kollam"
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/imageView"
+                        android:layout_width="351dp"
+                        android:layout_height="179dp"
+                        android:scaleX="2"
+                        app:srcCompat="@drawable/img_1" />
+
+                    <me.biubiubiu.justifytext.library.JustifyTextView
+                        android:id="@+id/textView10"
+                        android:layout_width="match_parent"
+                        android:layout_height="207dp"
+                        android:layout_marginTop="16dp"
+                        android:text="Kollam, also known as Quilon, is a historic port town located in the southern part of Kerala. It is known for its natural beauty, backwaters, and historic landmarks. Kollam is a gateway to the backwaters of Kerala, and visitors can enjoy boat rides, canoeing, and kayaking through the scenic waterways. It is also home to historic landmarks, such as the Kollam Beach, Thangasseri Lighthouse, and the Ashtamudi Lake, which is the second-largest lake in Kerala. Kollam is also famous for its cashew industry and is one of the major producers of cashew nuts in the country." />
+
+                    <TextView
+                        android:id="@+id/textView11"
+                        android:layout_width="match_parent"
+                        android:layout_height="24dp"
+                        android:text="3. Wayanad "
+                        android:textColor="@color/black"
+                        android:textSize="12dp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="323dp"
+                        android:layout_height="145dp"
+                        app:srcCompat="@drawable/img_5"
+                        android:scaleX="2"/>
+
+                    <me.biubiubiu.justifytext.library.JustifyTextView
+                        android:id="@+id/textView12"
+                        android:layout_width="match_parent"
+                        android:layout_height="102dp"
+                        android:layout_marginTop="16dp"
+                        android:text="Wayanad is a hill district located in the northeastern region of the India state of Kerala, known for its scenic beauty, wildlife sanctuaries, and tea plantations, forests. It is a popular destination for trekking, camping, and nature walks, offering breathtaking views of the Western Ghats." />
+
+
+                    <TextView
+                        android:id="@+id/textV11"
+                        android:layout_width="match_parent"
+                        android:layout_height="24dp"
+                        android:text="4. Vembanad Lake"
+                        android:textColor="@color/black"
+                        android:textSize="12dp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/image3"
+                        android:layout_width="323dp"
+                        android:layout_height="145dp"
+                        app:srcCompat="@drawable/img_6"
+                        android:scaleX="2"/>
+
+                    <me.biubiubiu.justifytext.library.JustifyTextView
+                        android:id="@+id/text12"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:text="Vembanad Lake is the largest lake in Kerala and a popular tourist attraction. It offers backwater tourism with traditional houseboats and fresh seafood cuisine. The lake is also an important source of livelihood for local communities engaged in fishing, farming, and tourism. The annual Nehru Trophy Boat Race is held here in August, featuring teams from different parts of Kerala competing in traditional snake boats." />
+
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.IndianHub"
+        tools:targetApi="31">
+        <activity
+            android:name=".RjFood"
+            android:exported="false" />
+        <activity
+            android:name=".KeralaPlace"
+            android:exported="false"
+            android:label="@string/title_activity_kerala_place"
+            android:theme="@style/Theme.IndianHub.NoActionBar" />
+        <activity
+            android:name=".KerelaPlace"
+            android:exported="false" />
+        <activity
+            android:name=".keralaPlace"
+            android:exported="false" />
+        <activity
+            android:name=".RjCulture"
+            android:exported="false" />
+        <activity
+            android:name=".RjPlace"
+            android:exported="false" />
+        <activity
+            android:name=".RjOutfit"
+            android:exported="false" />
+        <activity
+            android:name=".TelCulture"
+            android:exported="false" />
+        <activity
+            android:name=".TelOutfit"
+            android:exported="false" />
+        <activity
+            android:name=".TelFood"
+            android:exported="false" />
+        <activity
+            android:name=".TelPlace"
+            android:exported="false" />
+        <activity
+            android:name=".MsPlace"
+            android:exported="false" />
+        <activity
+            android:name=".MsOutfit"
+            android:exported="false" />
+        <activity
+            android:name=".MsFood"
+            android:exported="false" />
+        <activity
+            android:name=".KeralaOutfit"
+            android:exported="false" />
+        <activity
+            android:name=".KeralaFood"
+            android:exported="false" />
+        <activity
+            android:name=".KeralaCulture"
+            android:exported="false" />
+        <activity
+            android:name=".MsCulture"
+            android:exported="false" />
+        <activity
+            android:name=".Telangana"
+            android:exported="false" />
+        <activity
+            android:name=".Rajasthan"
+            android:exported="false" />
+        <activity
+            android:name=".Keralaover"
+            android:exported="false" />
+        <activity
+            android:name=".MaharashtraOver"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".KeralaOutfit">
+
+    <ImageView
+        android:layout_width="380dp"
+        android:layout_height="189dp"
+        android:layout_marginStart="30dp"
+        android:adjustViewBounds="true"
+        android:scaleX="1.3"
+        android:scaleY="1."
+        app:srcCompat="@drawable/img_7"
+        tools:ignore="ExtraText" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="-50dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="545dp"
+            android:layout_marginTop="50dp"
+            android:orientation="vertical">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:padding="14dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:letterSpacing="0.1"
+                        android:text="Know all about kerala traditional dress more than white and gold"
+                        android:textAllCaps="true"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                    <View
+                        android:layout_width="30dp"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="5dp"
+                        android:background="#03A9F4"
+                        android:orientation="vertical" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="33dp"
+                        android:layout_marginTop="10dp"
+                        android:letterSpacing="0.1"
+                        android:lineSpacingExtra="1dp"
+                        android:text="1. Silk Sarees"
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="143dp"
+                        android:scaleX="2"
+                        app:srcCompat="@drawable/img_17" />
+
+
+                    <me.biubiubiu.justifytext.library.JustifyTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="161dp"
+                        android:layout_marginTop="16dp"
+                        android:text="Another very popular and most worn women’s attire in the entire country is the saree. But people from Kerala state take pride in wearing silk sarees which are comfortable, lightweight, and very beautiful and attractive. Saree is also the common bridal dress of the kerala state and if you see anyone marrying according to their culture or ritual, saree is surely going to be their first choice.">
+
+                    </me.biubiubiu.justifytext.library.JustifyTextView>
+
+                    <TextView
+                        android:layout_width="132dp"
+                        android:layout_height="31dp"
+                        android:text="2. Melmundu"
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="351dp"
+                        android:layout_height="179dp"
+                        android:scaleX="2"
+                        app:srcCompat="@drawable/img_18" />
+
+                    <me.biubiubiu.justifytext.library.JustifyTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="99dp"
+                        android:layout_marginTop="16dp"
+                        android:text="Melmundu is the upper garment that is draped over the shoulders to cover the upper part of the body. However, as the dressing style is being influenced by western culture, nowadays, Melmundu is being replaced by the white shirt" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="26dp"
+                        android:text="3. Mundu"
+                        android:textColor="@color/black"
+                        android:textSize="12dp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="323dp"
+                        android:layout_height="145dp"
+                        app:srcCompat="@drawable/img_19"
+                        android:scaleX="2.1"/>
+
+                    <me.biubiubiu.justifytext.library.JustifyTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="197dp"
+                        android:layout_marginTop="16dp"
+                        android:text="Mundu, also known as Lungi is the traditional Kerala dress worn by men. It is a type of cloth that is wrapped around the waist. The traditional Mundu is made in white colour with a border known as ‘Kara’. Although this border can be made in any colour, most of the Mundu designs consist of Golden colour only. Mundus that are worn on a daily basis consist of simple borders; however, the fancy ones that are worn on festive occasions or at weddings contain embroidered kara." />
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

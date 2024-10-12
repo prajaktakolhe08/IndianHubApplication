@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="409dp"
+    android:layout_height="729dp"
+    android:fillViewport="true"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="1dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".MainActivity">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="338dp"
+            android:layout_height="266dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="55dp"
+            android:layout_marginBottom="463dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/rjimg" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="93dp"
+            android:layout_height="31dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="266dp"
+            android:layout_marginEnd="300dp"
+            android:layout_marginBottom="432dp"
+            android:text="Overview"
+            android:textColor="@color/black"
+            android:textSize="19dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:id="@+id/textView4"
+            android:layout_width="327dp"
+            android:layout_height="255dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="297dp"
+            android:layout_marginEnd="66dp"
+            android:layout_marginBottom="177dp"
+            android:text="Rajasthan is a state located in northern India. It has an area of 342,239 square kilometers and a population of over 79 million people. It's capital city is Jaipur, which is known as pink city of Rajasthan and known its vibrant culture and monuments, including the Hawa Mahal and Amer Fort. Rajasthan's economy is mainly driven by agriculture, with a focus on crops such as wheat, barley, and pulses. The state is also rich in mineral resources, including zinc and copper, and has a significant tourism industry due to its desert landscape and cultural heritage. The official language of rajasthan is Rajasthani, which is spoken by majority of population. It is also home to several prominent educational and research institutions like IIT."
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/brc"
+            android:layout_width="141dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="567dp"
+            android:layout_marginEnd="252dp"
+            android:layout_marginBottom="114dp"
+            android:text="FESTIVALS"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/bro"
+            android:layout_width="151dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="172dp"
+            android:layout_marginTop="625dp"
+            android:layout_marginEnd="86dp"
+            android:layout_marginBottom="54dp"
+            android:text="OUTFIT"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/brp"
+            android:layout_width="141dp"
+            android:layout_height="49dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="625dp"
+            android:layout_marginEnd="252dp"
+            android:layout_marginBottom="55dp"
+            android:text="PLACES"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/brf"
+            android:layout_width="150dp"
+            android:layout_height="46dp"
+            android:layout_marginStart="172dp"
+            android:layout_marginTop="567dp"
+            android:layout_marginEnd="87dp"
+            android:layout_marginBottom="116dp"
+            android:text="FOOD"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

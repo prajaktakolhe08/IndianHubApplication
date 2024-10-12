@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TelPlace">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="360dp"
+        android:layout_height="189dp"
+        android:layout_marginStart="30dp"
+        android:adjustViewBounds="true"
+        android:scaleX="1.7"
+        android:scaleY="1.2"
+        app:srcCompat="@drawable/img_55"
+        tools:ignore="ExtraText" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="-50dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="545dp"
+            android:layout_marginTop="50dp"
+            android:orientation="vertical">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:padding="14dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:letterSpacing="0.1"
+                        android:text="PLACES TO VISIT IN TELANGANA"
+                        android:textAllCaps="true"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                    <View
+                        android:layout_width="30dp"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="5dp"
+                        android:background="#03A9F4"
+                        android:orientation="vertical" />
+
+                    <TextView
+                        android:id="@+id/overview_info"
+                        android:layout_width="112dp"
+                        android:layout_height="28dp"
+                        android:layout_marginTop="10dp"
+                        android:letterSpacing="0.1"
+                        android:lineSpacingExtra="1dp"
+                        android:text="1. Hyderabad"
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+
+                    <ImageView
+                        android:id="@+id/imageView7"
+                        android:layout_width="match_parent"
+                        android:layout_height="132dp"
+                        android:scaleX="2.4"
+                        app:srcCompat="@drawable/img_45" />
+
+                    <me.biubiubiu.justifytext.library.JustifyTextView
+                        android:id="@+id/textView8"
+                        android:layout_width="match_parent"
+                        android:layout_height="212dp"
+                        android:layout_marginTop="16dp"
+                        android:text="A city of contrasts, Hyderabad exudes an old-world charm of its own with the Old City (Charminar side), Hitech City (Cyberabad) and the other areas lying between the old and the new. The capital and the largest city of Telanaga, Hyderabad is home to stately mosques and noisy bazaars lined parallelly alongside swanky new office buildings and malls, and it is these very contrasts – these glimpses into the city’s rich past with inherent promises of an even better future –that make Hyderabad a city worth visiting.">
+
+                    </me.biubiubiu.justifytext.library.JustifyTextView>
+
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="132dp"
+                        android:layout_height="28dp"
+                        android:text="2. Ramoji Film City"
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/imageView"
+                        android:layout_width="351dp"
+                        android:layout_height="179dp"
+                        android:scaleX="2"
+                        app:srcCompat="@drawable/img_46" />
+
+                    <me.biubiubiu.justifytext.library.JustifyTextView
+                        android:id="@+id/textView10"
+                        android:layout_width="match_parent"
+                        android:layout_height="101dp"
+                        android:layout_marginTop="16dp"
+                        android:text=" Ramoji Film City is one of the largest film studios in the world, located in Hyderabad. It is spread over 2000 acres and has been the shooting location for many Indian films. It also has various theme parks, gardens, and other attractions." />
+
+                    <TextView
+                        android:id="@+id/textView11"
+                        android:layout_width="match_parent"
+                        android:layout_height="29dp"
+                        android:text="3. Golconda Fort"
+                        android:textColor="@color/black"
+                        android:textSize="12dp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="323dp"
+                        android:layout_height="154dp"
+                        android:scaleX="2"
+                        app:srcCompat="@drawable/img_47" />
+
+                    <me.biubiubiu.justifytext.library.JustifyTextView
+                        android:id="@+id/textView12"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_marginTop="16dp"
+                        android:text="Golconda Fort is a medieval fort located in Hyderabad, which was once a center of the diamond trade. The fort has impressive architecture and offers a panoramic and fascinating view of the city from its highest point." />
+
+
+                    <TextView
+                        android:id="@+id/textV11"
+                        android:layout_width="match_parent"
+                        android:layout_height="28dp"
+                        android:text="4. Warangal Fort"
+                        android:textColor="@color/black"
+                        android:textSize="12dp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/image3"
+                        android:layout_width="323dp"
+                        android:layout_height="145dp"
+                        app:srcCompat="@drawable/img_48"
+                        android:scaleX="2"/>
+
+                    <me.biubiubiu.justifytext.library.JustifyTextView
+                        android:id="@+id/text12"
+                        android:layout_width="match_parent"
+                        android:layout_height="166dp"
+                        android:layout_marginTop="16dp"
+                        android:text="Warangal takes you back to the era of kings and queens with its beautiful historical sites and an impressive natural beauty with Parkhal Lake being worth checking out..Warangal Fort is a historic fort located in the city of Warangal, Telangana. It was the capital of the Kakatiya dynasty and has many interesting features such as the famous Swayambhu temple and the detailed intricate carvings on the walls of the Warangal fort." />
+
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

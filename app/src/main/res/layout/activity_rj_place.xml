@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RjPlace">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="380dp"
+        android:layout_height="189dp"
+        android:layout_marginStart="30dp"
+        android:adjustViewBounds="true"
+        android:scaleX="1.8"
+        android:scaleY="1"
+        app:srcCompat="@drawable/img_70"
+        tools:ignore="ExtraText" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="-50dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="545dp"
+            android:layout_marginTop="50dp"
+            android:orientation="vertical">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:padding="14dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:letterSpacing="0.1"
+                        android:text="Places to visit in Rajasthan"
+                        android:textAllCaps="true"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                    <View
+                        android:layout_width="30dp"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="5dp"
+                        android:background="#03A9F4"
+                        android:orientation="vertical" />
+
+                    <TextView
+                        android:id="@+id/overview_info"
+                        android:layout_width="95dp"
+                        android:layout_height="26dp"
+                        android:layout_marginTop="10dp"
+                        android:letterSpacing="0.1"
+                        android:lineSpacingExtra="1dp"
+                        android:text="1. Udaipur"
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/imageView7"
+                        android:layout_width="match_parent"
+                        android:layout_height="137dp"
+                        android:scaleX="2.4"
+                        app:srcCompat="@drawable/img_66"/>
+
+                    <me.biubiubiu.justifytext.library.JustifyTextView
+                        android:id="@+id/textView8"
+                        android:layout_width="match_parent"
+                        android:layout_height="153dp"
+                        android:layout_marginTop="16dp"
+                        android:text="Udaipur, also known as the City of Lakes, is one of the most visited tourist places in Rajasthan. Located around stunning water lakes and enveloped by the Aravalli Hills in all directions, Udaipur is known for its azure lakes, magnificent palaces, vibrant culture and delectable food. Along with being a must-visit destination, it is also one of the best places to experience luxury.. ">
+
+                    </me.biubiubiu.justifytext.library.JustifyTextView>
+
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="132dp"
+                        android:layout_height="29dp"
+                        android:text="2. Chittorgarh"
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/imageView"
+                        android:layout_width="351dp"
+                        android:layout_height="179dp"
+                        android:scaleX="2"
+                        app:srcCompat="@drawable/img_67" />
+
+                    <me.biubiubiu.justifytext.library.JustifyTextView
+                        android:id="@+id/textView10"
+                        android:layout_width="match_parent"
+                        android:layout_height="156dp"
+                        android:layout_marginTop="16dp"
+                        android:text="Located in South-Eastern Rajasthan, Chittorgarh is known for Chittorgarh Fort, the largest fort in India built on a hilltop, spreading over an area of around 700 acres. The capital of the erstwhile kingdom of Mewar, the magnificent fortress will always be remembered for the courageous self-sacrificing Jauhar performed by Rani Padmini to thwart or prevent the conquest of the fort by Alauddin Khilji." />
+
+                    <TextView
+                        android:id="@+id/textView11"
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp"
+                        android:text="3. Bharatpur National Park"
+                        android:textColor="@color/black"
+                        android:textSize="12dp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="323dp"
+                        android:layout_height="145dp"
+                        app:srcCompat="@drawable/img_68"
+                        android:scaleX="2"/>
+
+                    <me.biubiubiu.justifytext.library.JustifyTextView
+                        android:id="@+id/textView12"
+                        android:layout_width="match_parent"
+                        android:layout_height="217dp"
+                        android:layout_marginTop="16dp"
+                        android:text="Now known as the Keoladeo National Park, Bharatpur National Park is a famous avifauna sanctuary and a bird watching paradise listed among UNESCO's World Heritage sites. The 29 km reserve is locally known as Ghana and is a mosaic of dry grasslands, woodlands, woodland swamps, and wetlands. These diverse habitats are home to 366 bird species, 379 floral species, 50 species of fish, 13 species of snakes, 5 species of lizards, 7 amphibian species,7 turtle species, and a variety of other invertebrates. Every year waterfowl visit the park for winter breeding." />
+
+                    <TextView
+                        android:id="@+id/textV11"
+                        android:layout_width="match_parent"
+                        android:layout_height="38dp"
+                        android:text="4. Wayanad"
+                        android:textColor="@color/black"
+                        android:textSize="12dp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/image3"
+                        android:layout_width="323dp"
+                        android:layout_height="145dp"
+                        app:srcCompat="@drawable/img_69"
+                        android:scaleX="2"/>
+
+                    <me.biubiubiu.justifytext.library.JustifyTextView
+                        android:id="@+id/text12"
+                        android:layout_width="match_parent"
+                        android:layout_height="212dp"
+                        android:layout_marginTop="16dp"
+                        android:text="Jodhpur is the second-largest city in Rajasthan and the former capital of the Marwar region. It is popularly called the Blue City as it looks completely blue from an aerial view because of its blue walls and houses. Jodhpur is primarily famous for its temples, lakes and snacks, with the magnificent Mehrangarh Fort being the main attraction.Jodhpur attracts hundreds of thousands of visitors worldwide. Moreover, it is conveniently located in the centre of Rajasthan state, making it the base for visiting nearby places easily." />
+
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

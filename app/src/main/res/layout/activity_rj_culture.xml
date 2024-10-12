@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RjCulture">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="349dp"
+        android:layout_height="189dp"
+        android:layout_marginStart="30dp"
+        android:adjustViewBounds="true"
+        android:scaleX="1.5"
+        android:scaleY="1"
+        app:srcCompat="@drawable/img_80"
+        tools:ignore="ExtraText" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="-50dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="545dp"
+            android:layout_marginTop="50dp"
+            android:orientation="vertical">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:padding="14dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="41dp"
+                        android:letterSpacing="0.1"
+                        android:text="TOP POPULAR FESTIVALS CELEBRATE IN RAJASTHAN"
+                        android:textAllCaps="true"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                    <View
+                        android:layout_width="30dp"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="5dp"
+                        android:background="#03A9F4"
+                        android:orientation="vertical" />
+
+                    <TextView
+                        android:id="@+id/overview_info"
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp"
+                        android:layout_marginTop="10dp"
+                        android:letterSpacing="0.1"
+                        android:lineSpacingExtra="1dp"
+                        android:text="1. Chandrabhaga Fair – A Religious Cum Cattle Fair"
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/imageView7"
+                        android:layout_width="match_parent"
+                        android:layout_height="159dp"
+                        android:scaleX="1.9"
+                        app:srcCompat="@drawable/img_76" />
+
+
+                    <me.biubiubiu.justifytext.library.JustifyTextView
+                        android:id="@+id/textView8"
+                        android:layout_width="match_parent"
+                        android:layout_height="116dp"
+                        android:layout_marginTop="16dp"
+                        android:text="This religious cum cattle fair pulls travelers, cattle herders, pilgrims, and explorers from all over the country to assemble on the banks of river Chandrabhaga on the auspicious day of kartik purnima for a holy dip and prayer. Also ,for locals, it holds a greater significance for cattle trading.">
+
+                    </me.biubiubiu.justifytext.library.JustifyTextView>
+
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp"
+                        android:text="2. International Kite Festival – A Vibrant Festival Of Rajasthan"
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/imageView"
+                        android:layout_width="351dp"
+                        android:layout_height="179dp"
+                        android:scaleX="1.4"
+                        app:srcCompat="@drawable/img_77" />
+
+                    <me.biubiubiu.justifytext.library.JustifyTextView
+                        android:id="@+id/textView10"
+                        android:layout_width="match_parent"
+                        android:layout_height="113dp"
+                        android:layout_marginTop="16dp"
+                        android:text="One of the most vibrant and popular festivals of Rajasthan, The International Kite Festival is celebrated around Makar Sankranti every year. Locals, as well as tourists, fly kites of various shapes and colours and relish local delicacies and delectable sweets available everywhere." />
+
+                    <TextView
+                        android:id="@+id/textView11"
+                        android:layout_width="match_parent"
+                        android:layout_height="34dp"
+                        android:text="3. Desert Festival – The Expansive Thar Desert "
+                        android:textColor="@color/black"
+                        android:textSize="12dp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="352dp"
+                        android:layout_height="154dp"
+                        android:scaleX="1.8"
+                        app:srcCompat="@drawable/img_78" />
+
+                    <me.biubiubiu.justifytext.library.JustifyTextView
+                        android:id="@+id/textView12"
+                        android:layout_width="match_parent"
+                        android:layout_height="107dp"
+                        android:layout_marginTop="16dp"
+                        android:text="Desert Festival is the main festival of Rajasthan. It is a cultural carnival celebrated amid the sand dunes of the expansive Thar Desert. The Rajasthani folk culture is showcased through dance, music, gymnastic, camel polo, camel races, and other thrilling and exciting sports." />
+
+
+                    <TextView
+                        android:id="@+id/textV11"
+                        android:layout_width="match_parent"
+                        android:layout_height="24dp"
+                        android:text="4. Salwar Kameez"
+                        android:textColor="@color/black"
+                        android:textSize="12dp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/image3"
+                        android:layout_width="match_parent"
+                        android:layout_height="213dp"
+                        android:scaleX="1.3"
+                        app:srcCompat="@drawable/img_79" />
+
+                    <me.biubiubiu.justifytext.library.JustifyTextView
+                        android:id="@+id/text12"
+                        android:layout_width="match_parent"
+                        android:layout_height="162dp"
+                        android:layout_marginTop="16dp"
+                        android:text="One of the most popular festivals of Rajasthan, Teej is celebrated with absolute grandeur, traditional songs and dance, fair, and worship of Goddess Teej. There is a grand procession in which the golden palanquin of Goddess Teej is taken across the city with decorated elephants, horses, and camels. Undoubtedly, Teej festival in Rajasthan is an significantly important eve. " />
+
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

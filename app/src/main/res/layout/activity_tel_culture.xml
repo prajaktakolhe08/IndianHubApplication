@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TelCulture">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="380dp"
+        android:layout_height="189dp"
+        android:layout_marginStart="30dp"
+        android:adjustViewBounds="true"
+        android:scaleX="1.6"
+        android:scaleY="1"
+        app:srcCompat="@drawable/img_65"
+        tools:ignore="ExtraText" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="-50dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="545dp"
+            android:layout_marginTop="50dp"
+            android:orientation="vertical">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:padding="14dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:letterSpacing="0.1"
+                        android:text="Top popular Festivals Celebrate in telangana"
+                        android:textAllCaps="true"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                    <View
+                        android:layout_width="30dp"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="5dp"
+                        android:background="#03A9F4"
+                        android:orientation="vertical" />
+
+                    <TextView
+                        android:id="@+id/overview_info"
+                        android:layout_width="141dp"
+                        android:layout_height="28dp"
+                        android:layout_marginTop="10dp"
+                        android:letterSpacing="0.1"
+                        android:lineSpacingExtra="1dp"
+                        android:text="1. Bonalu Festival"
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/imageView7"
+                        android:layout_width="match_parent"
+                        android:layout_height="144dp"
+                        android:scaleX="2.6"
+                        app:srcCompat="@drawable/img_61" />
+
+
+                    <me.biubiubiu.justifytext.library.JustifyTextView
+                        android:id="@+id/textView8"
+                        android:layout_width="match_parent"
+                        android:layout_height="190dp"
+                        android:layout_marginTop="16dp"
+                        android:text="Bonalu is one of the regional festivals of the Telangana celebrated in the twin cities of Secunderabad and Hyderabad and other parts of Telangana during the Telugu month of Ashada (july). During this festival, women prepare Bonam (brass pot) filled with milk, jaggery and cooked rice and perform special pujas for Mahakali Amma. The pot is decorated with turmeric, neem leaves, kumkum and is offered to Goddess as a thanksgiving by carrying on their heads.">
+
+                    </me.biubiubiu.justifytext.library.JustifyTextView>
+
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="132dp"
+                        android:layout_height="32dp"
+                        android:text="2. Ugadi"
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/imageView"
+                        android:layout_width="351dp"
+                        android:layout_height="179dp"
+                        android:scaleX="2"
+                        app:srcCompat="@drawable/img_62" />
+
+                    <me.biubiubiu.justifytext.library.JustifyTextView
+                        android:id="@+id/textView10"
+                        android:layout_width="match_parent"
+                        android:layout_height="163dp"
+                        android:layout_marginTop="16dp"
+                        android:text="The Ugadi or Yugadi festival in Telangana is marked as the Telugu new year per the Hindu lunisolar calendar. It is also called Samvatsaradi, meaning the beginning of a new year. People prepare Ugadipachadi (pickle) during this festival, which combines six tastes such as spice, sweet, and two types of sour, bitter, and salt. This pickle signifies the way life is, and we should stand tall during the happiness and adversities." />
+
+                    <TextView
+                        android:id="@+id/textView11"
+                        android:layout_width="match_parent"
+                        android:layout_height="32dp"
+                        android:text="3. Ramzan"
+                        android:textColor="@color/black"
+                        android:textSize="12dp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="323dp"
+                        android:layout_height="145dp"
+                        app:srcCompat="@drawable/img_63"
+                        android:scaleX="2"/>
+
+                    <me.biubiubiu.justifytext.library.JustifyTextView
+                        android:id="@+id/textView12"
+                        android:layout_width="match_parent"
+                        android:layout_height="147dp"
+                        android:layout_marginTop="16dp"
+                        android:text="Ramzan is celebrated with great enthusiasm and zeal in Telangana. It is celebrated as per the Islamic calendar, according to the visibility of the moon. Muslims fast from dawn to sunset, avoiding any food or drink, including water. Instead, Muslims eat a pre-fast meal called suhur before sunrise. Halim is one of the special dishes you can find during the holy month of Ramzan." />
+
+
+                    <TextView
+                        android:id="@+id/textV11"
+                        android:layout_width="match_parent"
+                        android:layout_height="33dp"
+                        android:text="4. Dussehra (Navaratri)"
+                        android:textColor="@color/black"
+                        android:textSize="12dp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/image3"
+                        android:layout_width="323dp"
+                        android:layout_height="179dp"
+                        android:scaleX="2"
+                        app:srcCompat="@drawable/img_64" />
+
+                    <me.biubiubiu.justifytext.library.JustifyTextView
+                        android:id="@+id/text12"
+                        android:layout_width="match_parent"
+                        android:layout_height="302dp"
+                        android:layout_marginTop="16dp"
+                        android:text="Dussehra also known as Navratri is a Hindu festival celebrated in Telangana and across India. The festival is celebrated for ten days, and each day is dedicated to a different avatar of the Goddess such as Bala Tripura Sundari, Gayatri, Annapurna, Kamakshi, Lalitha, Lakshmi, Saraswathi, Durga, and Raja Rajeswari. 8th Day is called as Durgastami. On Mahanavami, the ninth day of Navaratri, ayudhapuja is conducted, where people offer prayers to all the instruments in their life. On Vijayadasami, the tenth day of Dasara, the Goddess is decorated as Maa Durga. On Dussehra, an effigy of the demon king Ravana is set off with firecrackers to celebrate victory of good over evil.." />
+
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

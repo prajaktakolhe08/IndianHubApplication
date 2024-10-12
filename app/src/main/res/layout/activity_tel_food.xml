@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TelFood">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="380dp"
+        android:layout_height="189dp"
+        android:layout_marginStart="30dp"
+        android:adjustViewBounds="true"
+        android:scaleX="1.6"
+        android:scaleY="1"
+        app:srcCompat="@drawable/img_54"
+        tools:ignore="ExtraText" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="-50dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="545dp"
+            android:layout_marginTop="50dp"
+            android:orientation="vertical">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:padding="14dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:letterSpacing="0.1"
+                        android:text="top food to try in telangana"
+                        android:textAllCaps="true"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                    <View
+                        android:layout_width="30dp"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="5dp"
+                        android:background="#03A9F4"
+                        android:orientation="vertical" />
+
+                    <TextView
+                        android:id="@+id/overview_info"
+                        android:layout_width="wrap_content"
+                        android:layout_height="32dp"
+                        android:layout_marginTop="10dp"
+                        android:letterSpacing="0.1"
+                        android:lineSpacingExtra="1dp"
+                        android:text="1. Hyderabadi Biryani"
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/imageView7"
+                        android:layout_width="match_parent"
+                        android:layout_height="140dp"
+                        android:scaleX="2.8"
+                        app:srcCompat="@drawable/img_51" />
+
+
+                    <me.biubiubiu.justifytext.library.JustifyTextView
+                        android:id="@+id/textView8"
+                        android:layout_width="match_parent"
+                        android:layout_height="214dp"
+                        android:layout_marginTop="16dp"
+                        android:text="Thanks to the major influence of Nizams in the state, Hyderabadi Biryani has come to be known worldwide as one of India’s jeweled food items. It is of two types; Kachchi gosht ki biryani and Pakki biryani. Marinated meat is cooked in layers of rice in a big handi which is covered with flat dough that eventually rises due to heat; indicating that the biryani is ready to be devoured.  With two different cooking methods producing mouthwatering results, the biryani has transformed over the years to satisfy everyone’s taste buds and it even has a vegetarian type.">
+
+                    </me.biubiubiu.justifytext.library.JustifyTextView>
+
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="132dp"
+                        android:layout_height="37dp"
+                        android:text="2. Sarva Pindi"
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/imageView"
+                        android:layout_width="351dp"
+                        android:layout_height="179dp"
+                        android:scaleX="2"
+                        app:srcCompat="@drawable/img_50" />
+
+                    <me.biubiubiu.justifytext.library.JustifyTextView
+                        android:id="@+id/textView10"
+                        android:layout_width="match_parent"
+                        android:layout_height="181dp"
+                        android:layout_marginTop="16dp"
+                        android:text="For a healthy breakfast/snack option, Sarva Pindi is an excellent choice as it is cooked with at least one component of each stage of the food pyramid. It is a savoury pancake made of rice flour, chana dal, peanuts and chilli. It is cooked in a deep, round shaped pan and to preserve the sanctity of the recipe, it is pertinent to make holes in the rolled out dough mixture before cooking it. It is also called Ginne Appa owing its own taste." />
+
+                    <TextView
+                        android:id="@+id/textView11"
+                        android:layout_width="match_parent"
+                        android:layout_height="39dp"
+                        android:text="3. Golichina Mamsam"
+                        android:textColor="@color/black"
+                        android:textSize="12dp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="323dp"
+                        android:layout_height="145dp"
+                        app:srcCompat="@drawable/img_52"
+                        android:scaleX="2"/>
+
+                    <me.biubiubiu.justifytext.library.JustifyTextView
+                        android:id="@+id/textView12"
+                        android:layout_width="match_parent"
+                        android:layout_height="158dp"
+                        android:layout_marginTop="16dp"
+                        android:text="Finally a non-vegetarian dish for the meat-lovers! Golichina roughly translated means “fry” in Telugu. As Telangana cuisine is well-known for its spices, this dish incorporates succulent pieces of mutton into a thick gravy that is loaded with locally grown spices and cooked over low flame for hours so the meat can truly absorb the essence of the curry. It is usually eaten with chapathis, rice or dosa." />
+
+
+                    <TextView
+                        android:id="@+id/textV11"
+                        android:layout_width="match_parent"
+                        android:layout_height="36dp"
+                        android:text="4. Double ka meetha"
+                        android:textColor="@color/black"
+                        android:textSize="12dp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/image3"
+                        android:layout_width="323dp"
+                        android:layout_height="145dp"
+                        app:srcCompat="@drawable/img_53"
+                        android:scaleX="2"/>
+
+                    <me.biubiubiu.justifytext.library.JustifyTextView
+                        android:id="@+id/text12"
+                        android:layout_width="match_parent"
+                        android:layout_height="264dp"
+                        android:layout_marginTop="16dp"
+                        android:text="Double ka meetha is a popular dessert from Hyderabad, Telangana, India. It is made using bread, milk, sugar, ghee, and dry fruits. The bread is first deep-fried in ghee until it is golden brown and crispy. Then it is soaked in a sugar syrup flavored with cardamom and saffron, and layered with thickened milk, which is often flavored with rose water. The dessert is then garnished with chopped nuts, such as almonds and pistachios, and sometimes even edible silver foil. It is often served as a dessert during special occasions such as weddings, events and festivals, and is a favorite among sweet lovers in Hyderabad." />
+
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

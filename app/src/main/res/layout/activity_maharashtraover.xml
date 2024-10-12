@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="409dp"
+    android:layout_height="729dp"
+    android:fillViewport="true"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="1dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".MaharashtraOver">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="338dp"
+            android:layout_height="266dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="65dp"
+            android:layout_marginBottom="463dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/msgate" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="93dp"
+            android:layout_height="31dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="266dp"
+            android:layout_marginEnd="300dp"
+            android:layout_marginBottom="432dp"
+            android:text="Overview"
+            android:textColor="@color/black"
+            android:textSize="19dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:id="@+id/textView4"
+            android:layout_width="327dp"
+            android:layout_height="255dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="297dp"
+            android:layout_marginEnd="66dp"
+            android:layout_marginBottom="177dp"
+            android:text="Maharashtra is a state located in the western region of India. It is the second-most populous state in India and is home to several major cities such as Mumbai, Pune, Nagpur, Nashik. The state covers an area of 307,713 square kilometers and has a population of over 112 million people. It's capital, Mumbai, is known as the financial capital of the India. The state has a diverse economy with strong focus on services and the majority of people speaks Marathi language . Maharashtra is also home to several prominent educational and research institutions, including the Indian Institute of Technology (IIT) Bombay, National Institute of Technology (NIT), Tata Institute of Fundamental Research (TIFR), and the University of Mumbai."
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/bmc"
+            android:layout_width="141dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="567dp"
+            android:layout_marginEnd="252dp"
+            android:layout_marginBottom="114dp"
+            android:text="FESTIVALS"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/bmo"
+            android:layout_width="151dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="172dp"
+            android:layout_marginTop="625dp"
+            android:layout_marginEnd="86dp"
+            android:layout_marginBottom="54dp"
+            android:text="OUTFIT"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/bmp"
+            android:layout_width="141dp"
+            android:layout_height="49dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="625dp"
+            android:layout_marginEnd="252dp"
+            android:layout_marginBottom="55dp"
+            android:text="PLACES"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/bmf"
+            android:layout_width="150dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="172dp"
+            android:layout_marginTop="567dp"
+            android:layout_marginEnd="87dp"
+            android:layout_marginBottom="116dp"
+            android:text="FOOD"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

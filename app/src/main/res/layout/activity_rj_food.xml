@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RjFood">
+
+    <ImageView
+        android:layout_width="380dp"
+        android:layout_height="189dp"
+        android:layout_marginStart="30dp"
+        android:adjustViewBounds="true"
+        android:scaleX="1.6"
+        android:scaleY="1"
+        app:srcCompat="@drawable/img_71"
+        tools:ignore="ExtraText" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="-50dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="545dp"
+            android:layout_marginTop="50dp"
+            android:orientation="vertical">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:padding="14dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:letterSpacing="0.1"
+                        android:text="Top food to try in rajasthan"
+                        android:textAllCaps="true"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                    <View
+                        android:layout_width="30dp"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="5dp"
+                        android:background="#03A9F4"
+                        android:orientation="vertical" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="32dp"
+                        android:layout_marginTop="10dp"
+                        android:letterSpacing="0.1"
+                        android:lineSpacingExtra="1dp"
+                        android:text="1. Dal baati churma"
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="131dp"
+                        android:scaleX="2.4"
+                        app:srcCompat="@drawable/img_72" />
+
+                    <me.biubiubiu.justifytext.library.JustifyTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="143dp"
+                        android:layout_marginTop="16dp"
+                        android:text="This is the state's classic signature dish. Baati is hard, unleavened bread cooked in the desert areas of Rajasthan. Baati is prized mainly for its long shelf life, plus it requires hardly any water for its preparation. It is always eaten with dal or curry (lentil curry). The dal is made of lentils while churma is a coarsely ground wheat mixture crushed and cooked in ghee and jaggery or sugar.">
+
+                    </me.biubiubiu.justifytext.library.JustifyTextView>
+
+                    <TextView
+                        android:layout_width="132dp"
+                        android:layout_height="34dp"
+                        android:text="2.  Onion kachori"
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="179dp"
+                        android:scaleX="1.4"
+                        app:srcCompat="@drawable/img_73" />
+
+                    <me.biubiubiu.justifytext.library.JustifyTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="134dp"
+                        android:layout_marginTop="16dp"
+                        android:text="Pyaaz ki kachori originated in Jodhpur and is now eaten all over the state, mainly as a breakfast snack. They are flaky, deep-fried breads made from plain flour and stuffed with a spicy onion mixture with spices like fennel, cumin, turmeric and chilli powder. Usually, kachoris are served with coriander and mint and date and tamarind chutney" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="32dp"
+                        android:text="3.  Panchkuta"
+                        android:textColor="@color/black"
+                        android:textSize="12dp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="352dp"
+                        android:layout_height="145dp"
+                        android:scaleX="1.8"
+                        app:srcCompat="@drawable/img_74" />
+
+                    <me.biubiubiu.justifytext.library.JustifyTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="182dp"
+                        android:layout_marginTop="16dp"
+                        android:text="As name suggests panchkuta means five ingredients. This is a quintessential curry made up of five ingredients found widely across the Thar Desert. For a long time, travellers in the desert relied extensively on panchkuta during long drives on carts and camels. It has a long shelf life after being cooked and is traditionally eaten with pooris/rotis. The five ingredients of panchkuta are sangri, ker, Kumat (seeds from the pod of a deciduous tree), gunda and dry red chillies." />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="32dp"
+                        android:text="4. Ghevar"
+                        android:textColor="@color/black"
+                        android:textSize="12dp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="145dp"
+                        android:scaleX="1.9"
+                        app:srcCompat="@drawable/img_75" />
+
+                    <me.biubiubiu.justifytext.library.JustifyTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="158dp"
+                        android:layout_marginTop="16dp"
+                        android:text="Ghevar or Ghewar is a special sweet dessert from Jaipur that is essentially a disc made from flour, soaked in ghee, milk and topped with sliced almonds. This sweet dish has a crunchy texture and is made in a mould. There are varieties of Ghevar that can be prepared from a plain, mawa (condensed milk) and malai ghevar (cream)." />
+
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>
